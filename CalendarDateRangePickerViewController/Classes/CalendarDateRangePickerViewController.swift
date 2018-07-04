@@ -38,6 +38,8 @@ public class CalendarDateRangePickerViewController: UICollectionViewController {
             delegate.didSelectEndDate(endDate: selectedEndDate)
         }
     }
+    
+    public var selectedColor = UIColor(red: 66/255.0, green: 150/255.0, blue: 240/255.0, alpha: 1.0)
 
     override public func viewDidLoad() {
         super.viewDidLoad()
