@@ -10,7 +10,7 @@ import UIKit
 
 public protocol CalendarDateRangePickerViewControllerDelegate {
     func didSelectStartDate(startDate: Date!)
-    func didSelectEndDate(endDate: Date!)
+    func didSelectEndDate(endDate: Date?)
 }
 
 public class CalendarDateRangePickerViewController: UICollectionViewController {
